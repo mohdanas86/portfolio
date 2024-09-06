@@ -16,7 +16,7 @@ const About = () => {
   return (
     <>
       <div
-        className="about w-full py-12 mt-6 flex justify-between items-center"
+        className="about w-full lg:py-12 py-0 mt-6 flex justify-between items-center lg:px-0 px-4"
         id="about"
       >
         {/* RIGTH - DESCRIPTION */}
@@ -34,7 +34,7 @@ const About = () => {
           </div>
 
           {/* SKILL CONTAINER */}
-          <div className="skills grid grid-cols-2 gap-12 mt-6">
+          <div className="skills grid lg:grid-cols-2 grid-cols-1 lg:gap-12 gap-6 lg:mt-6 mt-8">
             <div className="frontend">
               <h2 className="border-b-2 mb-6 border-[#fd6f00] font-semibold text-xl inline-block tracking-wider">
                 Frontend

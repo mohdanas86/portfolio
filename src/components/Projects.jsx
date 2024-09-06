@@ -59,7 +59,7 @@ const Projects = () => {
   return (
     <>
       <div
-        className="project w-full flex-col flex justify-center items-center py-4 mb-6"
+        className="project w-full flex-col flex justify-center items-center py-4 mb-6 lg:px-0 px-4 lg:mt-0 mt-8"
         id="project"
       >
         <div className="proDes">
@@ -73,7 +73,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="proCon grid grid-cols-4 gap-4 mt-6">
+        <div className="proCon grid lg:grid-cols-4 grid-cols-2 gap-4 mt-6">
           {Web &&
             Web.map((v, i) => {
               return (

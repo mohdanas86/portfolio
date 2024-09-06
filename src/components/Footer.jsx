@@ -37,8 +37,8 @@ const Footer = () => {
   return (
     <>
     <div className="footer w-full bg-[#F8F8F8]">
-<div className="subFooterCon w-full py-12 lg:w-[80%] mx-auto flex flex-col justify-center items-center">
-<ul className='flex justify-center items-center gap-6 text-lg font-semibold text-gray-800'>
+<div className="subFooterCon w-full lg:py-12 py-6 lg:w-[80%] mx-auto flex flex-col justify-center items-center">
+<ul className='flex justify-center items-center lg:gap-6 gap-3 lg:text-lg text-sm font-semibold text-gray-800'>
         <li className='hover:translate-x-1 duration-300 hover:text-[#fd6f00]'><a href="#home">Home</a></li>
         <li className='hover:translate-x-1 duration-300 hover:text-[#fd6f00]'><a href="#about">About</a></li>
         <li className='hover:translate-x-1 duration-300 hover:text-[#fd6f00]'><a href="#contact">Contact</a></li>
