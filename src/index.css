@@ -9,6 +9,8 @@
   --primery: #1e1e1e;
   --secondary: #fd6f00;
   --third: #ffff;
+  --fourth: #F8F8F8;
+  --fifth: #1E1E1E;
   --interFont: "Inter", sans-serif;
 }
 .interFont {
@@ -54,31 +56,46 @@ body {
 .backSkillImg img {
   padding: 10px;
 }
-
-.proItem img {
+/* ==== PROJECT CARDS ==== */
+.proItem{
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
     rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 }
-.proOverplay {
-  background-color: #41414185;
-}
+
 .proItem img:hover {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
-.proItem:hover .proOverplay {
-  top: 0px;
+
+.proOverplay {
+  background-color: #47404085;
+  /* background-color: #41414185; */
+  position: absolute;
+  left: 0px;
+  top: -1000px;
+  transition: all 0.5s ease;
+}
+.proItemHover {
+  position: absolute;
+  bottom: -1000px;
   left: 0px;
   display: flex;
-  transition: all 300ms ease;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  transition: all 0.5s ease;
 }
 
+.proItem:hover .proOverplay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
 .proItem:hover .proItemHover {
   display: flex;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
 }
-
-
-
-
 
 .container {
   position: relative;

@@ -78,15 +78,14 @@ const Projects = () => {
             Web.map((v, i) => {
               return (
                 <div
-                  className="proItem w-full gap-4 duration-300 relative overflow-hidden border-2 rounded-lg"
+                  className="proItem w-full gap-4 duration-300 relative overflow-hidden rounded-lg drop-shadow-lgshadow"
                   key={i}
                 >
-                  {/* <h2 className='border-b-2 mb-4 mt-6 border-[#fd6f00] font-semibold text-xl inline-block tracking-wider'>{v.name}</h2> */}
                   <img src={v.img} alt={v.name} className="" />
 
-                  <div className="proOverplay hidden w-full h-full absolute left-40 top-0 duration-300"></div>
-                  <div className="duration-300 z-50 proItemHover hidden justify-between items-center absolute bottom-0 left-0 w-full px-6 text-white bg-[#2f3542] py-6">
-                    <a href={v.url} className="text-2xl">
+                  <div className="proOverplay w-full h-full"></div>
+                  <div className="proItemHover w-full text-white bg-[#2f3542]">
+                    <a href={v.url} className="font-semibold text-xl">
                       <IoIosLink />
                     </a>
                     <span className=" capitalize">{v.name}</span>
