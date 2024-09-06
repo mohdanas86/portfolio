@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
     </div>
     {/* RIGHT - LOGO */}
-    <div className="rightLogo flex flex-col justify-between items-center light lg:w-[30%] w-full lg:mb-0 mb-12">
+    <div className="rightLogo flex flex-col justify-between items-center light lg:w-[30%] w-full lg:mb-0 mb-12 lg:order-2">
         <img src={web1} alt="" className='lg:w-[90%] w-[60%] drop-shadow rounded-3xl border rotate-3' />
         {/* <img src={web2} alt="" className='rotate-[-3deg] border border-gray-400 rounded-xl w-[70%]' /> */}
     </div>
