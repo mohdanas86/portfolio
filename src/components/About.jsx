@@ -23,7 +23,7 @@ const About = () => {
         <div className="rightDes w-[100%]">
           <div className="title interFont">
             <h4 className="font-semibold text-2xl">About Me</h4>
-            <p className="tracking-widest my-4">
+            <p className="lg:tracking-widest tracking-wider my-4">
               I am Anas, a seasoned MERN stack developer professional experience
               in developing, maintaining, redesigning, and optimizing websites.
               My expertise lies in utilizing MongoDB, Express.js, React, and
@@ -34,7 +34,7 @@ const About = () => {
           </div>
 
           {/* SKILL CONTAINER */}
-          <div className="skills grid lg:grid-cols-2 grid-cols-1 lg:gap-12 gap-6 lg:mt-6 mt-8">
+          <div className="skills grid lg:grid-cols-2 grid-cols-1 lg:gap-12 gap-6 lg:mt-6 mt-8" id="skills">
             <div className="frontend">
               <h2 className="border-b-2 mb-6 border-[#fd6f00] font-semibold text-xl inline-block tracking-wider">
                 Frontend

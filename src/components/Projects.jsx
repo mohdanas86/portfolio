@@ -64,7 +64,7 @@ const Projects = () => {
       >
         <div className="proDes">
           <h4 className="font-semibold text-2xl">Projects</h4>
-          <p className="tracking-widest my-4">
+          <p className="lg:tracking-widest tracking-wider my-4">
             I possess strong skills in React for front-end development, Node.js
             and Express.js for back-end development, along with proficiency in
             MongoDB for database management. Additionally, I have experience in
