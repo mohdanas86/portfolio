@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="header w-full lg:py-4 py-3 flex justify-between items-center lg:px-0 px-4 lg:border-none border-b">
+      <div className="header w-full py-4 flex justify-between items-center lg:px-0 px-4 lg:border-none border-b">
         {/* LOGO */}
         <div className="logo lg:tracking-wide">
           <span className="lg:text-2xl text-lg font-semibold">Anas..</span>
@@ -22,7 +22,7 @@ const Header = () => {
         <div className="nav lg:block hidden">
           <ul className="lg:flex hidden justify-center items-center lg:gap-4 gap-2 text-sm lg:text-lg">
             <li className="hover:translate-x-1 duration-300">
-              <a href="#home">Home</a>
+              <a href="/">Home</a>
             </li>
             <li className="hover:translate-x-1 duration-300">
               <a href="#about">About</a>
@@ -31,7 +31,7 @@ const Header = () => {
               <a href="#contact">Contact</a>
             </li>
             <li className="hover:translate-x-1 duration-300">
-              <a href="#skill">Skills</a>
+              <a href="#skills">Skills</a>
             </li>
             <li className="hover:translate-x-1 duration-300">
               <a href="#project">Projects</a>
@@ -49,7 +49,7 @@ const Header = () => {
 
       {/* OVERFLOW HEDAER FOR PHONE */}
       <div
-        className={`overFlowHeader w-full h-full fixed bg-[#47404085] duration-700 ${
+        className={`overFlowHeader z-50 w-full h-full fixed bg-[#47404085] duration-700 ${
           !showmenu
             ? "hidden top-0 left-[1000px]"
             : "flex lg:hidden top-0 left-0"

@@ -38,17 +38,17 @@ const Footer = () => {
     <>
     <div className="footer w-full bg-[#F8F8F8]">
 <div className="subFooterCon w-full lg:py-12 py-6 lg:w-[80%] mx-auto flex flex-col justify-center items-center">
-<ul className='flex justify-center items-center lg:gap-6 gap-3 lg:text-lg text-sm font-semibold text-gray-800'>
-        <li className='hover:translate-x-1 duration-300 hover:text-[#fd6f00]'><a href="#home">Home</a></li>
+<ul className='flex justify-center items-center lg:gap-6 gap-2 lg:text-lg text-sm font-semibold text-gray-800'>
+        <li className='hover:translate-x-1 duration-300 hover:text-[#fd6f00]'><a href="/">Home</a></li>
         <li className='hover:translate-x-1 duration-300 hover:text-[#fd6f00]'><a href="#about">About</a></li>
         <li className='hover:translate-x-1 duration-300 hover:text-[#fd6f00]'><a href="#contact">Contact</a></li>
-        <li className='hover:translate-x-1 duration-300 hover:text-[#fd6f00]'><a href="#skill">Skills</a></li>
+        <li className='hover:translate-x-1 duration-300 hover:text-[#fd6f00]'><a href="#skills">Skills</a></li>
         <li className='hover:translate-x-1 duration-300 hover:text-[#fd6f00]'><a href="#project">Projects</a></li>
     </ul>
 
 {/* SOCIAL MEDIA */}
     <div className="social py-6">
-        <ul className='flex justify-center items-center gap-6 text-lg font-semibold text-gray-800'>
+        <ul className='flex justify-center items-center lg:gap-6 gap-4 text-xl font-semibold text-gray-800'>
             {social && social.map((v, i)=>{
                 return(
                     <li className='hover:translate-x-1 duration-300 hover:text-[#fd6f00]'>
