@@ -14,7 +14,7 @@ const Hero = () => {
             <h2 className='lg:w-[50%] w-[70%] flex justify-start items-center lg:text-5xl text-3xl font-bold tracking-wider'>Full-Stack</h2>
             <h2 className='lg:w-[60%] w-[70%] flex justify-end items-center lg:text-5xl text-3xl font-bold tracking-wider'>Devloper</h2>
 
-            <p className='tracking-widest my-4 pr-8'>
+            <p className='tracking-widest my-4 pr-8 sm:text-lg'>
             Full-Stack Web Developer skilled in creating scalable, modern applications using the latest technologies. Expertise in delivering robust, high-performance solutions.</p>
             <a href="https://github.com/mohdanas86"><button className="btn capitalize border-transparent px-6 py-1.5 font-thin rounded-md hover:translate-x-1 duration-300  flex justify-center items-center gap-2">github <FaGithub /></button></a>
         </div>

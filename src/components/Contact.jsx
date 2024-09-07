@@ -10,7 +10,7 @@ const Contact = () => {
         <h4 className="font-bold lg:text-4xl text-3xl tracking-wider">
           Let's Work Together
         </h4>
-        <p className="lg:tracking-widest tracking-wider my-4 w-[80%] mx-auto text-center">
+        <p className="lg:tracking-widest tracking-wider my-4 w-[80%] mx-auto text-center sm:text-lg">
         Need help with a project? Let's connect! I'm available for freelance work and internships.
         </p>
 

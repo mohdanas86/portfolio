@@ -23,7 +23,7 @@ const About = () => {
         <div className="rightDes w-[100%]">
           <div className="title interFont">
             <h4 className="font-semibold text-2xl">About Me</h4>
-            <p className="lg:tracking-widest tracking-wider my-4">
+            <p className="lg:tracking-widest tracking-wider my-4 sm:text-lg">
               I am Anas, a seasoned MERN stack developer professional experience
               in developing, maintaining, redesigning, and optimizing websites.
               My expertise lies in utilizing MongoDB, Express.js, React, and
